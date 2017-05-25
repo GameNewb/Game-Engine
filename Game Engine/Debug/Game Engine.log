@@ -1,0 +1,105 @@
+﻿Build started 5/16/2017 10:37:40 PM.
+     1>Project "D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\Game Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Game Engine.unsuccessfulbuild".
+       ClCompile:
+         d:\Software\Microsoft Visual Studio 2010\VC\bin\CL.exe /c /I"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\SDL2-2.0.5\include" /I"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\SDL2_image-2.0.1\include" /I"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\glew-2.0.0\include\GL" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CharDetails.cpp DrawUtils.cpp EnemyDetails.cpp main.cpp Object.cpp Tile.cpp
+         Tile.cpp
+         Object.cpp
+         main.cpp
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(279): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(336): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(336): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(405): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(411): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(412): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(413): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(414): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(578): warning C4800: 'const unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(579): warning C4800: 'const unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(580): warning C4800: 'const unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(581): warning C4800: 'const unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(659): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(706): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(706): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(706): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(706): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(742): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(742): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(804): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(804): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(804): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(804): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(827): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(827): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(851): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(882): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(883): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(905): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(906): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1038): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1054): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1070): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1086): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1136): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1153): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1190): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1190): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1210): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1210): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1219): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1219): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1223): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1223): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1235): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1235): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1238): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1238): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1248): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1248): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1256): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1256): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1268): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1268): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1301): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1301): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1301): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\main.cpp(1301): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         EnemyDetails.cpp
+         DrawUtils.cpp
+     1>d:\users\kiyeon\documents\visual studio 2010\projects\game engine\game engine\drawutils.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\microsoft visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+         CharDetails.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Game Engine.exe.embed.manifest.res" "Debug\Game Engine_manifest.rc" 
+       Link:
+         d:\Software\Microsoft Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\SDL2-2.0.5\lib\x86" /LIBPATH:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\SDL2_image-2.0.1\lib\x86" /LIBPATH:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\glew-2.0.0\lib\Release\Win32" SDL2.lib SDL2main.lib glew32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Game Engine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.lib" /MACHINE:X86 "Debug\Game Engine.exe.embed.manifest.res"
+         Debug\CharDetails.obj
+         Debug\DrawUtils.obj
+         Debug\EnemyDetails.obj
+         Debug\main.obj
+         Debug\Object.obj
+         Debug\Tile.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Game Engine.exe.embed.manifest" /manifest "Debug\Game Engine.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Game Engine.exe.embed.manifest.res" "Debug\Game Engine_manifest.rc" 
+       LinkEmbedManifest:
+         d:\Software\Microsoft Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\SDL2-2.0.5\lib\x86" /LIBPATH:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\SDL2_image-2.0.1\lib\x86" /LIBPATH:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\External\glew-2.0.0\lib\Release\Win32" SDL2.lib SDL2main.lib glew32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Game Engine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.lib" /MACHINE:X86 "Debug\Game Engine.exe.embed.manifest.res"
+         Debug\CharDetails.obj
+         Debug\DrawUtils.obj
+         Debug\EnemyDetails.obj
+         Debug\main.obj
+         Debug\Object.obj
+         Debug\Tile.obj
+         Game Engine.vcxproj -> D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Debug\Game Engine.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Game Engine.unsuccessfulbuild".
+         Touching "Debug\Game Engine.lastbuildstate".
+     1>Done Building Project "D:\Users\Kiyeon\Documents\Visual Studio 2010\Projects\Game Engine\Game Engine\Game Engine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.44
